@@ -20,7 +20,7 @@ import {HttpClientModule} from '@angular/common/http';
     LoadingSpinnerComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'angularServerSideRendering' }),
     AppRoutingModule,
     HttpClientModule
   ],
