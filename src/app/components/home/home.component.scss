@@ -1,0 +1,20 @@
+.photos {
+  display: block;
+  overflow: hidden;
+  .photo {
+    display: flex;
+    width: 50%;
+    float: left;
+    .photo-thumbnail {
+      margin-right: 15px;
+    }
+    .photo-info {
+      h2 {
+
+      }
+      h5 {
+
+      }
+    }
+  }
+}

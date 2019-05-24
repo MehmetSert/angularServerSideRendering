@@ -1,0 +1,12 @@
+<app-loading-spinner *ngIf="showSpinner"></app-loading-spinner>
+<section class="photos" *ngIf="!showSpinner">
+  <div class="photo" *ngFor="let photo of photos | slice: 0:20">
+    <div class="photo-thumbnail">
+      <img [src]="photo.thumbnailUrl">
+    </div>
+    <div class="photo-info">
+      <h2><a routerLink="detail/{{ photo.id }}">{{ photo.title }}</a></h2>
+      <h5>Photo url: {{ photo.url }}</h5>
+    </div>
+  </div>
+</section>

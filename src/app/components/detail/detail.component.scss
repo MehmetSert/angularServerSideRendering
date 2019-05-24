@@ -1,0 +1,23 @@
+.detail {
+  display: flex;
+  .photo,
+  .album,
+  .user {
+    padding: 30px;
+    background-color: #f9f9f9;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li {
+        padding: 5px 0;
+        img {
+          max-width: 150px;
+        }
+      }
+    }
+    &:nth-child(odd) {
+      background-color: #f3f3f3;
+    }
+  }
+}
