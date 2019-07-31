@@ -1,3 +1,7 @@
+Adım adım nasıl yapıldığını anlattığım makaleme buradan ulaşabilirsiniz: https://kodumunblogu.net/detail/angularda-seo-server-side-rendering-ssr-angular-universala-giris
+
+Ayrıca "Angular Universal SSR build işleminde setTimeout, setInterval, localStorage, sessionStorage is not defined sorunu" başlıklı yazıma da buradan ulaşabilirsiniz: https://kodumunblogu.net/detail/angular-universal-ssr-build-isleminde-settimeout-setinterval-localstorage-sessionstorage-is-not-defined-sorunu
+
 # AngularServerSideRendering
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
